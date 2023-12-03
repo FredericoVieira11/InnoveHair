@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "innovehair-de33c",
+  "private_key_id": "bd0632df908dff27769a77bedf819e9364581f34",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCyA3lM1dQzN4H3\nENoROgz/xO6QFylmTB1VRGfYIgmAySgSLQywHPsDt3jJ+Fh54Xv5LlzCYuQUtdIo\ny4nmexnQt9YAyFqRb5cMSavpdt3NIAek6kI3FMX5uaTFEhTpr7S8PF9iqtiSymWx\nMmbmUxS0A2AY54HjKGUGj4QbPHOKBampI7zZ+DQtX93OUiidfbpt8gRR+EIfHtPG\n5LK5jFdRb9R5AZh1xY2u9QjWG/BYHGoUFbd77LhuGteZ08jl3kQjsAP2YRARSbCq\nd0BU7aK2piB1G9LFt7qI/iEkqYXxP0w9tYVxXj4jwJUHlzc6UyrNiwbKe75lY91T\nsvovehTNAgMBAAECggEAGJZaPr6aHKjiDpoJRK/b88fjm4tXcIW613gnT7cD0QH3\nwuruAbU/Bnhk+qCOt+bpFLXOohq+ng2vBWt3lJoUKrv5lwoVWFktZ8kVMZ31bMur\nwp+IncsEvUVi+MVSliRqtkUwd5RZbYz/FsZ7Z/y5s1N0BnyTeCiwK4PPH2PuIXYD\nGOdSaB/o40ug0eDbuKxb2nJAhHFe+8QpbqNYAudcKj97MHP0IDXZfXLdDQlEudcF\nDAmrkh0WgUU6xuRsGsO15dcGnxAIqvqot50OWgFbLeQiRGDlj6B4ZdJPWTti6sB2\na6jigPV28LyfleHXS5/O4CLDjbsckqXlXw/am9vMkQKBgQD5CBEkRFfe0d3qfu8s\nMVX90rNL96S+4Lz7ahIt/pRBwtywUfFxQfxyrGYGQZvsgxQ+LeOVQrcyMpvaf8UX\nBc+2cTuIp9jHiygcosNd2KU0MzoNiWKaMkSGduvd7aCTuaNqt+wrNUeJxBwt+sOq\nXxZmT64AO+Mng+juyFbBf+r3mwKBgQC2/qvJIWHcOVRbrl0O7njU9kAbX5bzbkIF\n/E4zjodwWaSFjerOSDSGf3AOdgEKMTw9dclkS0pSWtbFjetQuXyaxpCi9Ewb3ikq\niLoqAaojMaceyMqzTQeCLLErPuBUkyTXVoUwx3VkchgBnrdZV+zxvi9GkkD3U3CG\nGopxJJMPtwKBgF0bpgUQRGY7wyPkl5nHTGZdO8ogagkvz5iUfP2TXG0F5StLR+FX\nkYJycKbQKvMPwybIU3m/+uyavWjBMrg75QBKb77VOpjIr5OdSzwwPvw4VvEut539\nQ1+e4OsV6F6zHqVM5ND216trljmesz9k0+Qm0GCoA3MHv7RfVQh9wiUXAoGAbIUw\nuLEsSJ5S8Z/Angc77wct003nxesACm6qrZZ7qVvv3ifgNH7Lb2uJt3mxeirij4wX\nZ3vi0l3+ed+EyjWFuH/C7HA15lzkSs4UoK6mCAL9GZt34cbvifoZAw1hmaY9Ndqg\nV+IhMvUaWXOXRcuHv4DKpm47SrDXzR9WNGy9LZcCgYAG+oVnQnEToFnRQOhM9BZp\nzgl+BlUNOHg395n2Mu7lpKr6fKBe2Abia4d30TvCpiltkPXrosOH0S8iKoMSnWVP\nJEKUvlyRFiw9Y9lrtURQqLj/Q58SmyefyA55Y/GtMnLRaHCMJMsciOf47GyPvjmR\ndACwKA9cLO4fHYTRFfjF5Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-v4o2m@innovehair-de33c.iam.gserviceaccount.com",
+  "client_id": "105582931127662042159",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-v4o2m%40innovehair-de33c.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

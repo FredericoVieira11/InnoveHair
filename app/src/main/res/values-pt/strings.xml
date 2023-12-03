@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_name">Nome</string>
+    <string-array name="customerServiceType">
+        <item>Agendar atendimento</item>
+        <item>Rescolher dados para a aplicação</item>
+    </string-array>
+</resources>

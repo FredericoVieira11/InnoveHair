@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "433833147821",
+    "project_id": "innovehair-de33c",
+    "storage_bucket": "innovehair-de33c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433833147821:android:e8b98819a8e6cc33807524",
+        "android_client_info": {
+          "package_name": "com.example.innovehair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZbrnyKtN2Ro43Jcy9RemLZ6R0d2QWh0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

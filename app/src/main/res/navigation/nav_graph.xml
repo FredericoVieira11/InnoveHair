@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.innovehair.view.splash.SplashFragment"
+        android:label="SplashFragment">
+
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_managerDashboardFragment"
+            app:destination="@id/managerDashboardFragment"/>
+        <action
+            android:id="@+id/action_splashFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.innovehair.view.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_managerDashboardFragment"
+            app:destination="@id/managerDashboardFragment"/>
+        <action
+            android:id="@+id/action_loginFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainDashboardFragment"
+        android:name="com.example.innovehair.view.mainDashboard.MainDashboardFragment"
+        android:label="fragment_main_dashboard"
+        tools:layout="@layout/fragment_main_dashboard">
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_editCollaboratorFragment"
+            app:destination="@id/editCollaboratorFragment" />
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_createCustomerServiceFragment"
+            app:destination="@id/createCustomerServiceFragment" />
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_clientsListFragment"
+            app:destination="@id/clientsListFragment" />
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_serviceHistoryListFragment"
+            app:destination="@id/serviceHistoryListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/managerDashboardFragment"
+        android:name="com.example.innovehair.view.managerDashboard.ManagerDashboardFragment"
+        android:label="fragment_manager_dashboard"
+        tools:layout="@layout/fragment_manager_dashboard">
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment"/>
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_createNewCollaboratorFragment"
+            app:destination="@id/createNewCollaboratorFragment" />
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_collaboratorsListFragment"
+            app:destination="@id/collaboratorsListFragment" />
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_capillaryProsthesisFragment"
+            app:destination="@id/capillaryProsthesisFragment" />
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_clientsListFragment"
+            app:destination="@id/clientsListFragment" />
+        <action
+            android:id="@+id/action_managerDashboardFragment_to_serviceHistoryListFragment"
+            app:destination="@id/serviceHistoryListFragment" />
+        <argument
+            android:name="refresh_login"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.example.innovehair.view.resetPassword.ResetPasswordFragment"
+        android:label="fragment_reset_password"
+        tools:layout="@layout/fragment_reset_password" >
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+        <argument
+            android:name="user_email"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.example.innovehair.view.success.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" >
+        <action
+            android:id="@+id/action_successFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <argument
+            android:name="screen"
+            android:defaultValue=""
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_successFragment_to_managerDashboardFragment"
+            app:destination="@id/managerDashboardFragment"/>
+        <action
+            android:id="@+id/action_successFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewCollaboratorFragment"
+        android:name="com.example.innovehair.view.createNewCollaborator.CreateNewCollaboratorFragment"
+        android:label="fragment_create_new_collaborator"
+        tools:layout="@layout/fragment_create_new_collaborator" >
+        <action
+            android:id="@+id/action_createNewCollaboratorFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collaboratorsListFragment"
+        android:name="com.example.innovehair.view.collaboratorsList.CollaboratorsListFragment"
+        android:label="fragment_collaborators_list"
+        tools:layout="@layout/fragment_collaborators_list" >
+        <action
+            android:id="@+id/action_collaboratorsListFragment_to_collaboratorDetailsFragment"
+            app:destination="@id/collaboratorDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collaboratorDetailsFragment"
+        android:name="com.example.innovehair.view.collaboratorDetails.CollaboratorDetailsFragment"
+        android:label="fragment_collaborator_details"
+        tools:layout="@layout/fragment_collaborator_details">
+        <argument
+            android:name="collaboratorData"
+            app:argType="com.example.innovehair.view.collaboratorsList.CollaboratorData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCollaboratorFragment"
+        android:name="com.example.innovehair.view.editCollaborator.EditCollaboratorFragment"
+        android:label="fragment_edit_collaborator"
+        tools:layout="@layout/fragment_edit_collaborator" >
+        <action
+            android:id="@+id/action_editCollaboratorFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/capillaryProsthesisFragment"
+        android:name="com.example.innovehair.view.capillaryProsthesis.CapillaryProsthesisFragment"
+        android:label="fragment_capillary_prosthesis"
+        tools:layout="@layout/fragment_capillary_prosthesis" />
+    <fragment
+        android:id="@+id/createCustomerServiceFragment"
+        android:name="com.example.innovehair.view.customerService.createCustomerService.CreateCustomerServiceFragment"
+        android:label="fragment_create_customer_service"
+        tools:layout="@layout/fragment_create_customer_service" >
+        <action
+            android:id="@+id/action_createCustomerServiceFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clientsListFragment"
+        android:name="com.example.innovehair.view.clientsList.ClientsListFragment"
+        android:label="fragment_clients_list"
+        tools:layout="@layout/fragment_clients_list" >
+        <action
+            android:id="@+id/action_clientsListFragment_to_clientDetailsFragment"
+            app:destination="@id/clientDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clientDetailsFragment"
+        android:name="com.example.innovehair.view.clientDetails.ClientDetailsFragment"
+        android:label="fragment_client_details"
+        tools:layout="@layout/fragment_client_details" >
+        <action
+            android:id="@+id/action_clientDetailsFragment_to_editClientFragment"
+            app:destination="@id/editClientFragment" />
+        <argument
+            android:name="client_data"
+            app:argType="com.example.innovehair.service.models.respondeModels.ClientResponse"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="is_admin"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_clientDetailsFragment_to_createClientApplicationFragment"
+            app:destination="@id/createClientApplicationFragment" />
+        <action
+            android:id="@+id/action_clientDetailsFragment_to_createClientServiceFragment"
+            app:destination="@id/createClientServiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editClientFragment"
+        android:name="com.example.innovehair.view.editClient.EditClientFragment"
+        android:label="fragment_edit_client"
+        tools:layout="@layout/fragment_edit_client" >
+        <argument
+            android:name="client_data"
+            app:argType="com.example.innovehair.service.models.respondeModels.ClientResponse"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="is_admin"
+            app:argType="boolean" />
+        <argument
+            android:name="collaborator_object"
+            app:argType="com.example.innovehair.view.collaboratorsList.CollaboratorData"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_editClientFragment_to_searchCollaboratorsFragment"
+            app:destination="@id/searchCollaboratorsFragment" />
+        <action
+            android:id="@+id/action_editClientFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchCollaboratorsFragment"
+        android:name="com.example.innovehair.view.search.searchForCollaborators.SearchCollaboratorsFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/serviceHistoryListFragment"
+        android:name="com.example.innovehair.view.customerService.serviceHistoryList.ServiceHistoryListFragment"
+        android:label="fragment_service_history_list"
+        tools:layout="@layout/fragment_service_history_list" >
+        <action
+            android:id="@+id/action_serviceHistoryListFragment_to_customerServiceDetailsFragment"
+            app:destination="@id/customerServiceDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerServiceDetailsFragment"
+        android:name="com.example.innovehair.view.customerService.customerServiceDetails.CustomerServiceDetailsFragment"
+        android:label="fragment_customer_service_details"
+        tools:layout="@layout/fragment_customer_service_details" >
+        <argument
+            android:name="customer_service_details"
+            app:argType="com.example.innovehair.view.customerService.serviceHistoryList.CustomerServiceData"
+            app:nullable="true" />
+        <argument
+            android:name="is_admin"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_customerServiceDetailsFragment_to_editCustomerServiceFragment"
+            app:destination="@id/editCustomerServiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCustomerServiceFragment"
+        android:name="com.example.innovehair.view.customerService.editCustomerService.EditCustomerServiceFragment"
+        android:label="fragment_edit_customer_service"
+        tools:layout="@layout/fragment_edit_customer_service" >
+        <argument
+            android:name="customer_service_details"
+            app:argType="com.example.innovehair.view.customerService.serviceHistoryList.CustomerServiceData"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_editCustomerServiceFragment_to_searchCollaboratorsFragment"
+            app:destination="@id/searchCollaboratorsFragment" />
+        <action
+            android:id="@+id/action_editCustomerServiceFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+        <argument
+            android:name="is_admin"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/createClientApplicationFragment"
+        android:name="com.example.innovehair.view.createClientApplication.CreateClientApplicationFragment"
+        android:label="fragment_create_client_application"
+        tools:layout="@layout/fragment_create_client_application" >
+        <argument
+            android:name="client_data"
+            app:argType="com.example.innovehair.service.models.respondeModels.ClientResponse"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_createClientApplicationFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createClientServiceFragment"
+        android:name="com.example.innovehair.view.createClientService.CreateClientServiceFragment"
+        android:label="fragment_create_client_service"
+        tools:layout="@layout/fragment_create_client_service" >
+        <action
+            android:id="@+id/action_createClientServiceFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+        <argument
+            android:name="client_data"
+            app:argType="com.example.innovehair.service.models.respondeModels.ClientResponse"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

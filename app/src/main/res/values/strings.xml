@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">InnoveHair</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="user_name">Name</string>
+    <string-array name="customerServiceType">
+        <item>Schedule service</item>
+        <item>Collect data for the application</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="background">@color/white</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="CustomDropDownMenu" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="background">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="CustomButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:backgroundTint">@color/button_state_colors</item>
+        <item name="android:textColor">@color/button_text_state_colors</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>
