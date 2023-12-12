@@ -20,7 +20,7 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cirar Registo de Atendimento"
+        android:text="@string/create_attendance_service"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnBack"
@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:text="Prótese pretendida"
+                android:text="@string/desired_prothesis"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="Data agendamento"
+                android:text="@string/schedule_date"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -155,7 +155,7 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginBottom="16dp"
         android:enabled="false"
-        android:text="registar"
+        android:text="@string/register"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent" />
 

@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Filtros"
+            android:text="@string/filters"
             android:textColor="#081A2C"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colaborador"
+        android:text="@string/collaborator"
         android:textSize="12sp"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
@@ -65,7 +65,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cliente"
+        android:text="@string/client"
         android:textSize="12sp"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
@@ -90,7 +90,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Prótese capilar"
+        android:text="@string/capillary_prothesis"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
         android:layout_marginStart="16dp"
@@ -115,7 +115,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipo"
+        android:text="@string/service_type"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
         android:layout_marginStart="16dp"
@@ -165,7 +165,7 @@
             android:background="@drawable/rounded_button_background"
             android:backgroundTint="@color/Grey"
             android:layout_weight="1"
-            android:text="Limpar" />
+            android:text="@string/clean" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAddFilter"
@@ -176,7 +176,7 @@
             android:background="@drawable/rounded_button_background"
             android:backgroundTint="@color/Quaternary"
             android:layout_weight="1"
-            android:text="Filtrar" />
+            android:text="@string/search" />
 
     </LinearLayout>
 

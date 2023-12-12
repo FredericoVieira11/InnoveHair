@@ -3,8 +3,72 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="user_name">Name</string>
+    <string name="success">Success!</string>
+    <string name="advance">ADVANCE</string>
+    <string name="history_services">Services History</string>
+    <string name="client_details">Client Details</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_message">Please enter your access email below and within a few minutes you will receive a message to continue the recovery process:</string>
+    <string name="reset_password_error_message">Wrong email or does not exist in the system, try again.</string>
+    <string name="submit">SUBMIT</string>
+    <string name="hello">Hello,</string>
+    <string name="create_new_collaborator">Create new Collaborator</string>
+    <string name="list_of_protheses">List of Protheses</string>
+    <string name="list_of_collaborators">List of Collaborators</string>
+    <string name="list_of_clients">Customer List</string>
+    <string name="register_service">Service Record</string>
+    <string name="edit_my_data">Edit My Data</string>
+    <string name="password">Password</string>
+    <string name="login_error_message">Invalid credentials, please try again.</string>
     <string-array name="customerServiceType">
         <item>Schedule service</item>
         <item>Collect data for the application</item>
     </string-array>
+    <string name="access">ACCESS</string>
+    <string name="register_attendance">Register Attendance</string>
+    <string name="desired_prothesis">Desired prosthetics</string>
+    <string name="schedule_date">Schedule Date</string>
+    <string name="edit">EDIT</string>
+    <string name="remove">REMOVE</string>
+    <string name="edit_collaborator">Edit Collaborator</string>
+    <string name="contact">Phone Number</string>
+    <string name="client_associate_to_collaborator">Customer associated with the collaborator</string>
+    <string name="edit_client">Edit Client</string>
+    <string name="service_details">Service Details</string>
+    <string name="service_carried_out_in">Service carried out in</string>
+    <string name="service_type">Service type</string>
+    <string name="width_cm">Width (cm)</string>
+    <string name="length_cm">Length (cm)</string>
+    <string name="hair_density">Hair density (80% - 180%)</string>
+    <string name="hair_colour">Hair colour</string>
+    <string name="hair_texture">Hair texture</string>
+    <string name="application_date">Application date</string>
+    <string name="allergies">Allergies</string>
+    <string name="collaborator">Collaborator</string>
+    <string name="edit_attendance">Edit Attendance</string>
+    <string name="delete_service">Delete Service</string>
+    <string name="new_collaborator">New Collaborator</string>
+    <string name="add">ADD</string>
+    <string name="register">REGISTER</string>
+    <string name="choose_an_option_beloew">Choose an option below to continue</string>
+    <string name="does_the_client_have_allergies">Does the client have allergies?</string>
+    <string name="write_the_allergies">Write the allergies</string>
+    <string name="create_attendance_service">Create Attendance Service</string>
+    <string name="create_application_service">Create Application Service</string>
+    <string name="registered_in">Registered in</string>
+    <string name="attendance_registrations">Attendance Registrations</string>
+    <string name="application_registrations">Application Registrations</string>
+    <string name="delete_collaborator">Delete Collaborator</string>
+    <string name="delete_client">Delete Client</string>
+    <string name="client">Client</string>
+    <string name="capillary_prothesis">Capillary prothesis</string>
+    <string name="filters">Filters</string>
+    <string name="search">Search</string>
+    <string name="clean">Clean</string>
+    <string name="warning">Warning</string>
+    <string name="prothesis_details">Prothesis details</string>
+    <string name="price">Price (€)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="fill_in_all_fields">Fill in all fields</string>
 </resources>

@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sucesso!"
+            android:text="@string/success"
             android:textSize="15sp"
             android:textColor="#fff"
             android:textStyle="bold"/>
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         style="@style/CustomButton"
-        android:text="Avançar"
+        android:text="@string/advance"
         android:layout_marginHorizontal="32dp"
         android:layout_marginBottom="32dp"
         app:cornerRadius="10dp"

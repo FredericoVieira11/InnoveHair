@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detalhes da prótese"
+        android:text="@string/prothesis_details"
         android:textColor="#081A2C"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome"
+        android:text="@string/user_name"
         android:textSize="12sp"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
@@ -52,7 +52,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preço (€)"
+        android:text="@string/price"
         android:textSize="12sp"
         android:textColor="#081A2C"
         android:layout_marginTop="20dp"
@@ -84,7 +84,7 @@
         android:id="@+id/errorMessageTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preencha todos os campos"
+        android:text="@string/fill_in_all_fields"
         android:textColor="#BB2525"
         android:textSize="13sp"
         android:visibility="invisible"
@@ -108,7 +108,7 @@
             android:background="@drawable/rounded_button_background"
             android:backgroundTint="@color/Grey"
             android:layout_weight="1"
-            android:text="Cancelar" />
+            android:text="@string/cancel" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSave"
@@ -119,7 +119,7 @@
             android:background="@drawable/rounded_button_background"
             android:backgroundTint="@color/Quaternary"
             android:layout_weight="1"
-            android:text="Gravar" />
+            android:text="@string/save" />
 
     </LinearLayout>
 </LinearLayout>

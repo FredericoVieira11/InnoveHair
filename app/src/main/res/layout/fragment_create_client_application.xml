@@ -20,7 +20,7 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cirar Registo de Aplicação"
+        android:text="@string/create_application_service"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnBack"
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:text="Prótese pretendida"
+                android:text="@string/desired_prothesis"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -86,7 +86,7 @@
                     android:id="@+id/textView29"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Largura(cm)"
+                    android:text="@string/width_cm"
                     android:textColor="@color/white"
                     android:textSize="13sp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -115,7 +115,7 @@
                     android:id="@+id/textView30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comprimento(cm)"
+                    android:text="@string/length_cm"
                     android:textColor="@color/white"
                     android:textSize="13sp"
                     app:layout_constraintStart_toStartOf="@+id/guideline3"
@@ -145,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="dendeinie"
+                android:text="@string/hair_density"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="Cor de cabelo"
+                android:text="@string/hair_colour"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -217,7 +217,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="Textura capilar"
+                android:text="@string/hair_texture"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -241,7 +241,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="Data agendamento"
+                android:text="@string/application_date"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 
@@ -296,7 +296,7 @@
                     android:id="@+id/textView32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="O cliente possui alergias?"
+                    android:text="@string/does_the_client_have_allergies"
                     android:textColor="@color/white"
                     android:textSize="13sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -319,7 +319,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:text="Asinale as alergias"
+                android:text="@string/write_the_allergies"
                 android:textColor="@color/white"
                 android:textSize="13sp"
                 android:visibility="gone"
@@ -375,7 +375,7 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginBottom="16dp"
         android:enabled="false"
-        android:text="registar"
+        android:text="@string/register"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent" />
 

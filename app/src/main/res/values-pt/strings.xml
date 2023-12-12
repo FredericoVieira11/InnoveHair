@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="user_name">Nome</string>
+    <string name="success">Sucesso!</string>
+    <string name="advance">AVANÇAR</string>
+    <string name="history_services">Histórico de Serviços</string>
+    <string name="client_details">Detalhes do Cliente</string>
+    <string name="reset_password_title">Recuperar palavra-passe</string>
+    <string name="reset_password_message">Por favor, insira abaixo o e-mail de acesso e dentro de uns minutos lhe chegará uma mensagem para a continuação do processo de recuperação:</string>
+    <string name="reset_password_error_message">Email errado ou não existe no sistema, tente novamente.</string>
+    <string name="submit">SUBMETER</string>
+    <string name="hello">Olá,</string>
+    <string name="create_new_collaborator">Criar novo Colaborador</string>
+    <string name="list_of_protheses">Lista de Próteses</string>
+    <string name="list_of_collaborators">Lista de Colaboradores</string>
+    <string name="list_of_clients">Lista de Clientes</string>
+    <string name="register_service">Regito de Serviço</string>
+    <string name="edit_my_data">Editar os meus Dados</string>
+    <string name="password">Palavra-passe</string>
+    <string name="login_error_message">Credenciais invalidas, por favor tente novamente.</string>
     <string-array name="customerServiceType">
         <item>Agendar atendimento</item>
         <item>Rescolher dados para a aplicação</item>
     </string-array>
+    <string name="access">ACEDER</string>
+    <string name="register_attendance">Registar Atendimento</string>
+    <string name="desired_prothesis">Prótese pretendida</string>
+    <string name="schedule_date">Data de agendamento</string>
+    <string name="edit">EDITAR</string>
+    <string name="remove">REMOVER</string>
+    <string name="edit_collaborator">Editar Colaborador</string>
+    <string name="contact">Contacto</string>
+    <string name="client_associate_to_collaborator">Cliente associado ao colaborador</string>
+    <string name="edit_client">Editar Cliente</string>
+    <string name="service_details">Detalhes do Serviço</string>
+    <string name="service_carried_out_in">Atendimento realizado em</string>
+    <string name="service_type">Tipo de serviço</string>
+    <string name="width_cm">Largura (cm)</string>
+    <string name="length_cm">Comprimento (cm)</string>
+    <string name="hair_density">Densidade capilar (80% - 180%)</string>
+    <string name="hair_colour">Cor do cabelo</string>
+    <string name="hair_texture">Textura capilar</string>
+    <string name="application_date">Data da aplicação</string>
+    <string name="allergies">Alergias</string>
+    <string name="collaborator">Colaborador</string>
+    <string name="edit_attendance">Editar Atendimento</string>
+    <string name="delete_service">Apagar Serviço</string>
+    <string name="new_collaborator">Novo Colaborador</string>
+    <string name="add">ADICIONAR</string>
+    <string name="register">REGISTAR</string>
+    <string name="choose_an_option_beloew">Escolha uma opção abaixo para continuar</string>
+    <string name="does_the_client_have_allergies">O cliente possui alergias?</string>
+    <string name="write_the_allergies">Assinale as alergias</string>
+    <string name="create_attendance_service">Criar Registo de Atendimento</string>
+    <string name="create_application_service">Criar Registo de Aplicação</string>
+    <string name="registered_in">Registado em</string>
+    <string name="attendance_registrations">Registo de Atendimentos</string>
+    <string name="application_registrations">Registo de Aplicações</string>
+    <string name="delete_collaborator">Apagar Colaborador</string>
+    <string name="delete_client">Apagar Cliente</string>
+    <string name="client">Cliente</string>
+    <string name="capillary_prothesis">Prótese capilar</string>
+    <string name="filters">Filtros</string>
+    <string name="search">Filtrar</string>
+    <string name="clean">Limpar</string>
+    <string name="warning">Aviso</string>
+    <string name="prothesis_details">Detalhes da prótese</string>
+    <string name="price">Preço (€)</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Gravar</string>
+    <string name="fill_in_all_fields">Preencha todos os campos</string>
 </resources>
